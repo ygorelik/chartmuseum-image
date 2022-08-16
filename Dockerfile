@@ -10,7 +10,7 @@
 # docker run -td --name chartmuseum -p 8443:8080 chartmuseum-image
 #
 
-FROM debian:buster
+FROM ubuntu:bionic
 
 RUN apt-get update && \
     apt-get install -y net-tools vim curl && \

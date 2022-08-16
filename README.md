@@ -1,14 +1,14 @@
 ## Simple docker image to run ChartMuseum helm chart repository
 
-This docker image is based on Debian Buster (version 10).
+This docker image is based on Ubuntu Bionic (18.04 LTS).
 
 ### Command To build the image 
 
 This is the command to build the chartmuseum image from this repository and create a local docker image named
 **chartmuseum-image**:
 ```commandline
-git clone https://github.com/ygorelik/chartmuseum_image
-cd chartmuseum_image
+git clone https://github.com/ygorelik/chartmuseum-image
+cd chartmuseum-image
 docker build --no-cache -t chartmuseum-image .
 ```
 
